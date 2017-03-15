@@ -45,15 +45,15 @@
    git clone https://github.com/<your-username>/php-the-right-way.git
    # clone 이 완료된 디렉토리 안으로 이동합니다.
    cd php-the-right-way
-   # 원본 프로젝트 저장소를 "upstream"이라는 리모트 저장소로 등록합니다.
-   git remote add upstream https://github.com/codeguy/php-the-right-way.git
+   # ModernPUG 프로젝트 저장소를 "ModernPUG"라는 리모트 저장소로 등록합니다.
+   git remote add upstream https://github.com/ModernPUG/php-the-right-way.git
    ```
 
-2. clone 을 한 지 시간이 좀 지났다면, upstream 으로부터 최신 변경 내역을 받아옵니다.
+2. clone 을 한 지 시간이 좀 지났다면, ModernPUG 로부터 최신 변경 내역을 받아옵니다.
 
    ```bash
    git checkout gh-pages
-   git pull upstream gh-pages
+   git pull ModernPUG gh-pages
    ```
 
 3. 토픽 브랜치를 새로 만들고 여러분의 작업을 합니다.
@@ -76,10 +76,10 @@
    message guidelines](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)에 따라 메시지를 적절히 작성합니다. 여러분의 커밋을 공개하기 전에, 
    git의 [interactive rebase](https://help.github.com/articles/interactive-rebase) 기능을 사용해서 커밋을 깔끔하게 정리합니다.
 
-6. 로컬 저장소에서 upstream 개발 브랜치를 여러분의 토픽 브랜치로 merge(혹은 rebase)합니다.
+6. 로컬 저장소에서 ModernPUG 개발 브랜치를 여러분의 토픽 브랜치로 merge(혹은 rebase)합니다.
 
    ```bash
-   git pull [--rebase] upstream gh-pages
+   git pull [--rebase] ModernPUG gh-pages
    ```
 
 7. 토픽 브랜치를 여러분의 github 저장소에 push 합니다.
@@ -89,7 +89,6 @@
    ```
 
 8. 알아보기 쉬운 제목과 설명을 붙여서 [풀 리퀘스트를 보냅니다.](https://help.github.com/articles/using-pull-requests/)
-
 
 ## 프로젝트에 기여함으로써 동의하게 되는 내용
 
